@@ -5,7 +5,7 @@ import Register from "./component/Register";
 
 function App() {
   return (
-    <div>
+    <div style={{ width: "100vw" }}>
       <Routes>
         <Route path="/" element={<Home />}></Route>
         <Route path="/Register" element={<Register />}></Route>

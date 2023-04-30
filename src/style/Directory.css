@@ -1,3 +1,22 @@
+@font-face {
+  font-family: Aquafont;
+  src: url(../Font/aqua.ttf);
+}
 #Directory_outer_div {
+  font-family: "Raleway", sans-serif;
+  width: auto;
   margin: 20px;
+  border: 2px;
+  background-color: #e8e1dd;
+  border-radius: 20px;
+  transition: 1.5s ease;
+}
+#Directory_outer_div h1 {
+  font-family: Aquafont;
+}
+#Directory_outer_div div {
+  margin: 10px;
+}
+#Directory_image_div {
+  text-align: center;
 }

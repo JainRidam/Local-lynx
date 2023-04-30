@@ -6,4 +6,6 @@
 }
 #Filter_second_div {
   display: flex;
+  flex-wrap: nowrap;
+  transition: 1.5 ease-in;
 }

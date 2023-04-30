@@ -12,21 +12,39 @@
 }
 #Register_button_div {
   text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
-.Register_inner_div {
-  text-align: center;
-  margin: 10px;
+#Register_button_div button:hover {
   font-size: 20px;
 }
-input:focus {
-  outline: none;
+#Register_button_div button:not(:hover) {
+  transition: 0.5s ease;
 }
-input {
+#Register_button_div button {
+  border-radius: 20px;
+  width: 100px;
+  border: 0;
+  cursor: pointer;
+  transition: 0.5s ease;
+  font-family: "Raleway", sans-serif;
+}
+.Register_inner_form_div {
   text-align: center;
+  margin: 15px;
+  font-size: 30px;
+}
+.Register_Inner_div input {
+  width: 400px;
+  height: 20px;
+  text-align: center;
+  border-radius: 10px;
+  border: 0;
+  background-color: #ddd0c8;
 }
 .Register_Inner_div {
   width: 500px;
-  height: 90vh;
+  height: auto;
   background-color: #e8e1dd;
   text-align: center;
   justify-content: center;

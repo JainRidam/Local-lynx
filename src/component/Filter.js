@@ -54,7 +54,7 @@ function Filter() {
   return (
     <div>
       <div id="Filter_first_div">
-        <label for="cars">Apply Filter:</label>
+        <label style={{ color: "#d7182e" }}>Apply Filter:</label>
         <input
           list="data"
           onChange={(e) => {
@@ -72,7 +72,14 @@ function Filter() {
       <div id="Filter_second_div">
         {DirectoryFetched.map((data) => {
           return (
-            <Directory Tag={data.tag} Name={data.name} />
+            <Directory
+              Business={data.business}
+              Location={data.location}
+              Mobile={data.mobile}
+              Tag={data.tag}
+              Name={data.name}
+              Link={data.link}
+            />
             // <div>
             //   <div>{data.tag}</div>
             //   <div>{data.name}</div>

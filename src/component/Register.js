@@ -10,16 +10,17 @@ function Register() {
   let [name, setname] = useState();
   let [location, setlocation] = useState();
   let [mobile, setmobile] = useState();
-
+  let [link, setlink] = useState();
   const submitdata = (e) => {
     e.preventDefault();
     const id = uid();
     set(ref(db, `/${id}`), {
       business: `${Business}`,
-      fname: `${name}`,
+      name: `${name}`,
       tag: `${tag}`,
       location: `${location}`,
       mobile: `${mobile}`,
+      link: `${link}`,
     });
     alert("Thanks For Registering!");
   };
@@ -30,7 +31,7 @@ function Register() {
       <div className="Register_Inner_div">
         <div id="Title_div"> Register Your Business</div>
         <form>
-          <div className="Register_inner_div">Business Name</div>
+          <div className="Register_inner_form_div">Business Name</div>
           <div>
             <input
               type="text"
@@ -40,7 +41,7 @@ function Register() {
               }}
             ></input>
           </div>
-          <div className="Register_inner_div">Owner's Name</div>
+          <div className="Register_inner_form_div">Owner's Name</div>
           <div>
             <input
               type="text"
@@ -50,17 +51,17 @@ function Register() {
               }}
             ></input>
           </div>
-          <div className="Register_inner_div">Business Tags</div>
+          <div className="Register_inner_form_div">Business Tags</div>
           <div>
             <input
               type="text"
-              placeholder="Tags"
+              placeholder="Tags [separate with comma(,)] "
               onChange={(e) => {
                 settag(e.target.value);
               }}
             ></input>
           </div>
-          <div className="Register_inner_div">location</div>
+          <div className="Register_inner_form_div">location</div>
           <div>
             <input
               type="text"
@@ -70,13 +71,23 @@ function Register() {
               }}
             ></input>
           </div>
-          <div className="Register_inner_div">Mobile No</div>
+          <div className="Register_inner_form_div">Mobile No</div>
           <div>
             <input
               type="text"
               placeholder="Mobile No"
               onChange={(e) => {
                 setmobile(e.target.value);
+              }}
+            ></input>
+          </div>
+          <div className="Register_inner_form_div">Cover Photo</div>
+          <div>
+            <input
+              type="text"
+              placeholder="Google drive link"
+              onChange={(e) => {
+                setlink(e.target.value);
               }}
             ></input>
           </div>
