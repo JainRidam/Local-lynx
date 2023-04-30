@@ -9,8 +9,8 @@ function Directory(props) {
       </div>
 
       <div>Owner's Name:{props.Name}</div>
-      <div>{props.Mobile}</div>
-      <div>{props.Location}</div>
+      <div>Mobile No:-{props.Mobile}</div>
+      <div>Location:-{props.Location}</div>
       <div>Tags(#):{props.Tag}</div>
     </div>
   );
