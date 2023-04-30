@@ -1,0 +1,9 @@
+#Filter_first_div {
+  /* position: absolute;
+   */
+  text-align: right;
+  right: 0;
+}
+#Filter_second_div {
+  display: flex;
+}

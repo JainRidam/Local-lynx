@@ -1,0 +1,59 @@
+@font-face {
+  name: Aquafont;
+  src: url(../Font/aqua.ttf);
+}
+ul {
+  display: flex;
+  margin-top: 0px;
+}
+li {
+  margin: 20px;
+  list-style: none;
+}
+a:hover {
+  color: #2b7a76;
+  transition: 0.5 ease;
+  font-size: 25px;
+  position: relative;
+  right: 2px;
+}
+a {
+  font-family: Aquafont;
+  text-decoration: none;
+}
+li a {
+  margin: 20px;
+  cursor: pointer;
+  transition: 0.5s ease;
+  text-transform: uppercase;
+}
+
+a:not(:hover) {
+  color: #d7182e;
+  font-size: 20px;
+  /* opacity: 0.2; */
+  /* filter: blur(1px); */
+}
+#Register {
+  position: absolute;
+  right: 0;
+  top: 0;
+  margin-top: 10px;
+}
+#registerbutton {
+  background-color: #17252a;
+  border-radius: 20px;
+  border: 0;
+  cursor: pointer;
+}
+#registerbutton a:hover {
+  color: #def2f1;
+  transition: 0.3s;
+  font-size: 20px;
+}
+
+#registerbutton a:not(:hover) {
+  color: beige;
+  font-size: 15px;
+  transition: 0.5s ease;
+}
