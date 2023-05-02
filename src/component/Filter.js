@@ -52,7 +52,7 @@ function Filter() {
   console.log(Uniquetag);
   console.log(Alltags);
   return (
-    <div>
+    <div style={{ width: "100vw" }}>
       <div id="Filter_first_div">
         <label style={{ color: "#d7182e" }}>Apply Filter:</label>
         <input

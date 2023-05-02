@@ -4,12 +4,15 @@
 }
 #Directory_outer_div {
   font-family: "Raleway", sans-serif;
-  width: auto;
+  width: 20%;
   margin: 20px;
   border: 2px;
   background-color: #e8e1dd;
   border-radius: 20px;
   transition: 1.5s ease;
+}
+.Directory_inner_div {
+  font-size: 2vw;
 }
 #Directory_outer_div h1 {
   font-family: Aquafont;
@@ -19,4 +22,58 @@
 }
 #Directory_image_div {
   text-align: center;
+  background-size: auto;
+}
+#Directory_image_div img {
+  width: 15vw;
+  height: 15vw;
+}
+@media screen and (max-width: 600px) {
+  #Directory_outer_div {
+    font-family: "Raleway", sans-serif;
+    width: 40vw;
+    border: 2px;
+    background-color: #e8e1dd;
+    border-radius: 20px;
+    transition: 1.5s ease;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5.5vw;
+  }
+  .Directory_inner_div {
+    font-size: 2.5vw;
+  }
+  #Directory_image_div img {
+    width: 20vw;
+    height: 20vw;
+  }
+  #Directory_image_div {
+    background-size: auto;
+  }
+  #Directory_outer_div h1 {
+    font-size: 4vw;
+  }
+}
+@media screen and (min-width: 601px) and (max-width: 900px) {
+  #Directory_outer_div {
+    font-family: "Raleway", sans-serif;
+    width: 40vw;
+    border: 2px;
+    background-color: #e8e1dd;
+    border-radius: 20px;
+    transition: 1.5s ease;
+  }
+  .Directory_inner_div {
+    font-size: 2.5vw;
+  }
+  #Directory_image_div img {
+    width: 20vw;
+    height: 20vw;
+  }
+  #Directory_image_div {
+    background-size: auto;
+  }
+  #Directory_outer_div h1 {
+    font-size: 3vw;
+  }
 }
