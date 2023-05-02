@@ -1,11 +1,77 @@
 #Filter_first_div {
   /* position: absolute;
    */
-  text-align: right;
+  /* width: 100vw; */
+  position: absolute;
   right: 0;
+  /* text-align: right; */
 }
 #Filter_second_div {
   display: flex;
-  flex-wrap: nowrap;
+  flex-wrap: wrap;
+  flex-direction: row;
   transition: 1.5 ease-in;
+  padding-top: 2vw;
+  text-align: center;
+  justify-content: space-evenly;
+}
+@media screen and (max-width: 600px) {
+  #Filter_first_div {
+    /* position: absolute;
+     */
+    /* width: 100vw; */
+    position: absolute;
+    right: 0;
+
+    /* text-align: right; */
+  }
+  #Filter_first_div input {
+    width: 20vw;
+    font-size: 2vw;
+    height: 2vw;
+  }
+  #Filter_first_div label {
+    font-size: 2vw;
+    padding-right: 1vw;
+  }
+  #Filter_second_div {
+    display: flex;
+    flex-wrap: wrap;
+    transition: 1.5 ease-in;
+    padding-top: 2vw;
+    text-align: center;
+    justify-content: space-between;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+@media screen and (min-width: 601px) and (max-width: 900px) {
+  #Filter_first_div {
+    /* position: absolute;
+     */
+    /* width: 100vw; */
+    position: absolute;
+    right: 0;
+    /* text-align: right; */
+  }
+  #Filter_first_div input {
+    width: 20vw;
+    font-size: 1.5vw;
+    height: 2vw;
+  }
+  #Filter_first_div label {
+    font-size: 2vw;
+    padding-right: 1vw;
+  }
+  #Filter_second_div {
+    display: flex;
+    flex-wrap: wrap;
+    /* flex-direction: row; */
+    transition: 1.5 ease-in;
+    padding-top: 2vw;
+    text-align: center;
+    justify-content: space-around;
+    margin-left: auto;
+    margin-right: auto;
+  }
 }

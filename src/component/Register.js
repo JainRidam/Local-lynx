@@ -61,7 +61,7 @@ function Register() {
               }}
             ></input>
           </div>
-          <div className="Register_inner_form_div">location</div>
+          <div className="Register_inner_form_div">Location</div>
           <div>
             <input
               type="text"

@@ -3,21 +3,71 @@
   src: url(../Font/aqua.ttf);
 }
 #Welcome_Outer_div {
-  display: grid;
-  height: 300px;
+  /* display: flex; */
+  height: 25vw;
 }
 #Welcome_Outer_div h1 {
   margin: 0;
 }
-#Welcome_div {
+#Welcome_span {
   position: relative;
-  left: 30%;
+  left: 20%;
   font-family: Aquafont;
 }
 #para_div {
-  text-align: center;
+  position: relative;
+  /* text-align: center; */
+  left: 30%;
   font-family: "Roboto", sans-serif;
 }
 #para_div b {
   font-family: Aquafont;
+}
+@media screen and (max-width: 600px) {
+  #Welcome_Outer_div {
+    /* display: flex; */
+    height: 25vw;
+  }
+  #Welcome_Outer_div h1 {
+    margin: 0;
+  }
+  #Welcome_span {
+    position: relative;
+    left: 20%;
+    font-family: Aquafont;
+    font-size: 2vw;
+  }
+  #para_div {
+    position: relative;
+    left: 30%;
+    /* text-align: center; */
+    font-family: "Roboto", sans-serif;
+    font-size: 2vw;
+  }
+  #para_div b {
+    font-family: Aquafont;
+  }
+}
+@media screen and (min-width: 601px) and (max-width: 900px) {
+  #Welcome_Outer_div {
+    /* display: flex; */
+    height: 25vw;
+  }
+  #Welcome_Outer_div h1 {
+    margin: 0;
+  }
+  #Welcome_div {
+    position: relative;
+    left: 20%;
+    font-family: Aquafont;
+  }
+  #para_div {
+    position: relative;
+    left: 30%;
+    /* text-align: center; */
+    font-family: "Roboto", sans-serif;
+  }
+  #para_div b {
+    font-family: Aquafont;
+  }
 }

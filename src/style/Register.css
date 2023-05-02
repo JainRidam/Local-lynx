@@ -11,54 +11,176 @@
   background-color: #ddd0c8;
 }
 #Register_button_div {
+  height: 2vw;
   text-align: center;
-  margin-top: 20px;
-  margin-bottom: 20px;
-}
-#Register_button_div button:hover {
-  font-size: 20px;
-}
-#Register_button_div button:not(:hover) {
-  transition: 0.5s ease;
+  /* margin-top: 2vw; */
+  margin-bottom: 2vw;
 }
 #Register_button_div button {
-  border-radius: 20px;
-  width: 100px;
+  border-radius: 2vw;
+  width: 10vw;
   border: 0;
   cursor: pointer;
   transition: 0.5s ease;
   font-family: "Raleway", sans-serif;
+  margin-top: 1vw;
+  margin-bottom: 1vw;
+  height: 2vw;
 }
 .Register_inner_form_div {
   text-align: center;
-  margin: 15px;
-  font-size: 30px;
+  margin: 1vw;
+  font-size: 2vw;
 }
 .Register_Inner_div input {
-  width: 400px;
-  height: 20px;
+  width: 20vw;
+  height: 1.5vw;
   text-align: center;
-  border-radius: 10px;
+  border-radius: 1.5vw;
   border: 0;
   background-color: #ddd0c8;
 }
 .Register_Inner_div {
-  width: 500px;
+  width: 30vw;
   height: auto;
   background-color: #e8e1dd;
   text-align: center;
   justify-content: center;
   align-items: center;
   border-radius: 20px;
+  margin-top: auto;
+  margin-bottom: auto;
 }
 form {
   font-family: "Raleway", sans-serif;
-  margin-top: 70px;
+  margin-top: 4vw;
   margin-bottom: auto;
   margin-left: 0;
   margin-right: 0;
 }
 #Title_div {
-  font-size: 30px;
+  margin-top: 1vw;
+  font-size: 2vw;
   font-family: Aquafont;
+}
+@media screen and (min-width: 1024px) {
+  #Register_button_div button:hover {
+    font-size: 1.2vw;
+    color: #d7182e;
+  }
+  #Register_button_div button:not(:hover) {
+    transition: 0.5s ease;
+    font-size: 1vw;
+  }
+}
+@media screen and (max-width: 600px) {
+  #Register_button_div {
+    text-align: center;
+    height: 5vh;
+  }
+
+  #Register_button_div button {
+    border-radius: 2vw;
+    width: 15vw;
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+    font-size: 2.5vw;
+    height: 3vh;
+    border: 0;
+    cursor: pointer;
+    transition: 0.5s ease;
+    font-family: "Raleway", sans-serif;
+  }
+  .Register_inner_form_div {
+    text-align: center;
+    margin: 3vh;
+    margin-bottom: 1vh;
+    font-size: 3vw;
+  }
+  .Register_Inner_div input {
+    width: 48vw;
+    height: 2vh;
+    text-align: center;
+    border-radius: 1.5vw;
+    border: 0;
+    background-color: #ddd0c8;
+    font-size: 1.5vh;
+  }
+  .Register_Inner_div {
+    width: 60vw;
+    height: auto;
+    background-color: #e8e1dd;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+  }
+  form {
+    font-size: 1.5vh;
+    font-family: "Raleway", sans-serif;
+    margin-top: 6vh;
+    margin-bottom: auto;
+    margin-left: 0;
+    margin-right: 0;
+  }
+  #Title_div {
+    margin-top: 1vh;
+    font-size: 3vw;
+    font-family: Aquafont;
+  }
+}
+@media screen and (min-width: 601px) and (max-width: 900px) {
+  #Register_button_div {
+    text-align: center;
+    padding: auto;
+    height: 4vh;
+  }
+
+  #Register_button_div button {
+    border-radius: 2vw;
+    margin-top: 2vh;
+    height: 3vw;
+    font-size: 2vw;
+    width: 10vw;
+    border: 0;
+    cursor: pointer;
+    transition: 0.5s ease;
+    font-family: "Raleway", sans-serif;
+  }
+  .Register_inner_form_div {
+    text-align: center;
+    margin: 3vh;
+    margin-bottom: 2vh;
+    font-size: 2vh;
+  }
+  .Register_Inner_div input {
+    width: 35vw;
+    height: 2vh;
+    text-align: center;
+    border-radius: 1.5vw;
+    border: 0;
+    background-color: #ddd0c8;
+  }
+  .Register_Inner_div {
+    width: 50vw;
+    height: auto;
+    background-color: #e8e1dd;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+  }
+  form {
+    font-size: 2vh;
+    font-family: "Raleway", sans-serif;
+    margin-top: 6vw;
+    margin-bottom: auto;
+    margin-left: 0;
+    margin-right: 0;
+  }
+  #Title_div {
+    margin-top: 1vh;
+    font-size: 2vh;
+    font-family: Aquafont;
+  }
 }

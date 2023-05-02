@@ -5,8 +5,8 @@ import Filter from "./Filter";
 
 function Home() {
   return (
-    <div>
-      <div style={{ backgroundColor: "#ddd0c8" }}>
+    <div style={{ width: "100vw" }}>
+      <div style={{ backgroundColor: "#ddd0c8", width: "100%" }}>
         <Navbar />
         <Welcome />
       </div>

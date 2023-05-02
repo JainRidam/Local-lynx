@@ -8,10 +8,10 @@ function Directory(props) {
         <img src={props.Link} />
       </div>
 
-      <div>Owner's Name:{props.Name}</div>
-      <div>Mobile No:-{props.Mobile}</div>
-      <div>Location:-{props.Location}</div>
-      <div>Tags(#):{props.Tag}</div>
+      <div className="Directory_inner_div">Owner's Name:{props.Name}</div>
+      <div className="Directory_inner_div">Mobile No:-{props.Mobile}</div>
+      <div className="Directory_inner_div">Location:-{props.Location}</div>
+      <div className="Directory_inner_div">Tags(#):{props.Tag}</div>
     </div>
   );
 }
