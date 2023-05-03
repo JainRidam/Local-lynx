@@ -30,7 +30,14 @@ li {
   text-align: center;
   position: absolute;
   right: 0;
-  width: 25vw;
+  width: 30vw;
+  background-color: #ddd0c8;
+}
+#navbar_button button {
+  width: 30vw;
+  align-items: center;
+  padding: 0;
+  text-align: center;
 }
 #navbar_button a {
   font-size: 1.5vw;
